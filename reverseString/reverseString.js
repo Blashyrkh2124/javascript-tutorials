@@ -1,5 +1,7 @@
-const reverseString = function() {
-
+const reverseString = function(text) {
+  
 }
+
+reverseString("Hello");
 
 module.exports = reverseString
