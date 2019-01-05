@@ -12,3 +12,14 @@ leapYears(1985) // is not a leap year: returns false
 
 ## Hints
 - use an `if` statement and `&&` to make sure all the conditions are met properly
+
+
+als jaar % 100 == 0
+  als jaar % 400 != 0 && als jaar % 4 == 0
+    dan is het waar
+
+als jaar % 100 != 0
+  als jaar % 4 == 0
+    dan is het waar
+
+anders is het fout
